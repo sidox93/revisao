@@ -1,0 +1,59 @@
+<LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView   android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/um_texto_em_vermelho"
+                android:textColor="#FF0000"
+                android:textSize="25sp"/>
+
+    <EditText   android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="16dp"
+                android:hint="@string/digite_alguma_coisa_aqui_dentro"
+                android:inputType="numberDecimal"
+                android:id="@+id/edtAlgumaCoisa"/>
+
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgdOpcoes">
+
+    <RadioButton android:checked="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/opcao_01"
+                 android:id="@+id/rdbOpcao01"/>
+
+    <RadioButton android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/opcao_02"
+                 android:id="@+id/rdbOpcao02"/>
+
+    <RadioButton android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/opcao_03"
+                 android:id="@+id/rdbOpcao03"/>
+
+    </RadioGroup>
+
+
+    <CheckBox    android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/selecione_me"
+                 android:id="@+id/chkSelecioneMe"/>
+
+    <Button      android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginVertical="16dp"
+                 android:text="@string/salvar"
+                 android:onClick="salvar"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/txtResultado"/>
+
+</LinearLayout>

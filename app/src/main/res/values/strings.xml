@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Revisão</string>
+    <string name="um_texto_em_vermelho">Um texto em vermelho</string>
+    <string name="digite_alguma_coisa_aqui_dentro">Digite alguma coisa aqui dentro...</string>
+    <string name="opcao_01">Opções_01</string>
+    <string name="opcao_02">opcao_02</string>
+    <string name="opcao_03">opcao_03</string>
+    <string name="selecione_me">selecione-me</string>
+    <string name="salvar">salvar</string>
+    <string name="nenhuma_opcao">Nenhuma opção informada</string>
+</resources>
